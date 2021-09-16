@@ -9,6 +9,6 @@ while square == 0:
         p = (a + b + c) / 2
         square = (p*(p - a)*(p - b)*(p - c))**0.5
     else:
-        side.pop(0)
+        side.pop(0)  # Del first element list
 print(square)
 print(a, b, c)
